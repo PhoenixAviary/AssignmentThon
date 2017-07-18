@@ -16,3 +16,17 @@ var sports = {
     canRent:"yes",
     rentalPrice:"$40 per day",
 };
+
+var dealership = {cars: []}; 
+
+QuantityofCars : cars(3);
+
+canRent : "yes"
+ 
+totNumAvail : 3
+
+RentalPrice: "$30 per day"
+
+avail: "yes"
+
+cars.push("sedan", "sports", "suv"); 
