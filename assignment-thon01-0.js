@@ -1,32 +1,18 @@
+//object method
+//need "this" thingy.
+//put cars back into array
 
-var sedan = {
-    totNumAvail:3,
-    canRent:"yes",
-    rentalPrice:"$20 per day",
-};
+var dealership = {cars: [],  
 
-var suv = {
-    totNumAvail:1,
-    canRent:"yes",
-    rentalPrice:"$30 per day",
-};
+QuantityofCars : cars(3),
 
-var sports = {
-    totNumAvail:2,
-    canRent:"yes",
-    rentalPrice:"$40 per day",
-};
-
-var dealership = {cars: []}; 
-
-QuantityofCars : cars(3);
-
-canRent : "yes"
+canRent : "yes",
  
-totNumAvail : 3
+totNumAvail : 3,
 
-RentalPrice: "$30 per day"
+RentalPrice: "$30 per day",
 
-avail: "yes"
+avail: "yes",
 
-cars.push("sedan", "sports", "suv"); 
+cars.push("sedan", "sports", "suv")
+}
